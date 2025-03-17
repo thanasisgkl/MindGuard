@@ -8,7 +8,6 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "build": "npx expo export:web",
-    "web:build": "npx expo export:web",
     "vercel-build": "npx expo export:web",
     "postinstall": "expo install"
   },
