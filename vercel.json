@@ -1,7 +1,7 @@
 {
-  "buildCommand": "npm run build",
+  "buildCommand": "npx expo export:web",
   "outputDirectory": "web-build",
-  "devCommand": "npm run web",
+  "devCommand": "npx expo start --web",
   "framework": "expo",
   "rewrites": [
     {
@@ -9,5 +9,15 @@
       "destination": "/index.html"
     }
   ],
-  "installCommand": "npm install && npm run postinstall"
+  "installCommand": "npm install && npx expo install",
+  "rootDirectory": ".",
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "web-build"
+      }
+    }
+  ]
 } 
