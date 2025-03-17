@@ -1,5 +1,5 @@
 {
-  "buildCommand": "npm run vercel-build",
+  "buildCommand": "npm run build",
   "outputDirectory": "web-build",
   "devCommand": "npm run web",
   "framework": "expo",
@@ -9,5 +9,5 @@
       "destination": "/index.html"
     }
   ],
-  "installCommand": "npm install"
+  "installCommand": "npm install && npm run postinstall"
 } 
