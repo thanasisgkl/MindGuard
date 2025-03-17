@@ -1,0 +1,38 @@
+{
+  "project_info": {
+    "project_number": "1096411820681",
+    "project_id": "mindguard-412716",
+    "storage_bucket": "mindguard-412716.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1096411820681:android:123456789",
+        "android_client_info": {
+          "package_name": "com.mindguard.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1096411820681-iqvhj2u0aqtlqm5ej3f6kqk8ot5enq8q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "YOUR-ANDROID-API-KEY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1096411820681-iqvhj2u0aqtlqm5ej3f6kqk8ot5enq8q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ]
+} 

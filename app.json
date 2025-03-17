@@ -1,0 +1,68 @@
+{
+  "expo": {
+    "name": "MindGuard",
+    "slug": "mindguard",
+    "version": "1.0.0",
+    "newArchEnabled": true,
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "scheme": "mindguard",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mindguard.app",
+      "config": {
+        "googleSignIn": {
+          "reservedClientId": "com.googleusercontent.apps.1096411820681-iqvhj2u0aqtlqm5ej3f6kqk8ot5enq8q"
+        }
+      },
+      "newArchEnabled": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.mindguard.app",
+      "googleServicesFile": "./google-services.json",
+      "newArchEnabled": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-web-browser",
+      [
+        "expo-auth-session",
+        {
+          "scheme": "mindguard",
+          "redirectUrls": [
+            "https://auth.expo.io/@thanasis1622000/mindguard",
+            "https://auth.expo.io/@thanasis1622000/mindguard/redirect"
+          ]
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "your-project-id"
+      }
+    },
+    "developmentClient": {
+      "silentLaunch": true
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    }
+  }
+} 
