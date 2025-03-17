@@ -10,7 +10,6 @@
     }
   ],
   "installCommand": "npm install && npx expo install",
-  "rootDirectory": ".",
   "builds": [
     {
       "src": "package.json",
