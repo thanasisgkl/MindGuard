@@ -13,8 +13,8 @@ if (!supabaseUrl || !supabaseAnonKey) {
 }
 
 // Create the redirect URL using direct deep linking
-const redirectUrl = 'mindguard://';
-const redirectUrlCallback = 'mindguard://auth/callback';
+const redirectUrl = __DEV__ ? 'https://auth.expo.io/@thanasis1622000/mindguard' : 'https://mindguard.vercel.app';
+const redirectUrlCallback = __DEV__ ? 'https://auth.expo.io/@thanasis1622000/mindguard' : 'https://mindguard.vercel.app/auth/callback';
 
 console.log('Redirect URL:', redirectUrl);
 console.log('Redirect URL Callback:', redirectUrlCallback);
@@ -121,7 +121,7 @@ export const signOut = async () => {
 export const forgotPassword = async (email: string) => {
   try {
     const { data, error } = await supabase.auth.resetPasswordForEmail(email, {
-      redirectTo: 'mindguard://auth/callback'
+      redirectTo: redirectUrlCallback
     });
 
     if (error) {
