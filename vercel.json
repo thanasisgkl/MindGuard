@@ -1,7 +1,7 @@
 {
   "version": 2,
   "framework": "expo",
-  "buildCommand": "npx expo export:web",
+  "buildCommand": "npm run vercel-build",
   "outputDirectory": "web-build",
   "routes": [
     {
