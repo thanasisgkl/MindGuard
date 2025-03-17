@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "main": "expo-router/entry",
   "scripts": {
-    "build": "expo export:web",
-    "web:build": "expo export:web",
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "vercel-build": "expo export:web",
+    "build": "npx expo export:web",
+    "web:build": "npx expo export:web",
+    "vercel-build": "npx expo export:web",
     "postinstall": "expo install"
   },
   "dependencies": {
