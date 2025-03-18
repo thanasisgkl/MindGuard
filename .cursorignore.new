@@ -1,0 +1,29 @@
+﻿# Dependencies
+node_modules/
+
+# Build outputs
+build/
+dist/
+web-build/
+
+# Cache and temp files
+.cache/
+.cursor/
+.cursor-cache/
+.cursor-index/
+.cursor-temp/
+
+# TypeScript definitions
+**/*.d.ts
+
+# Assets
+*.svg
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.ico
+*.woff
+*.woff2
+*.ttf
+*.eot

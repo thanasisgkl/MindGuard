@@ -1,12 +1,13 @@
 {
-  "version": 2,
-  "framework": "expo",
   "buildCommand": "npm run vercel-build",
-  "outputDirectory": "web-build",
-  "routes": [
+  "outputDirectory": "dist",
+  "devCommand": "npm run start",
+  "installCommand": "npm install",
+  "framework": null,
+  "rewrites": [
     {
-      "src": "/(.*)",
-      "dest": "/"
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
   ]
 } 

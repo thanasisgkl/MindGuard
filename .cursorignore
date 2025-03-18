@@ -1,0 +1,70 @@
+# Dependencies
+node_modules/
+node_modules/expo-auth-session/
+node_modules/expo-auth-session/build/
+node_modules/expo-auth-session/build/*.d.ts
+
+# Build outputs
+build/
+dist/
+web-build/
+
+# Cache and temp files
+.cache/
+.cursor/
+.cursor-cache/
+.cursor-index/
+.cursor-temp/
+
+# TypeScript definitions
+**/*.d.ts
+*.d.ts
+node_modules/**/*.d.ts
+node_modules/expo-auth-session/**/*.d.ts
+node_modules/expo-auth-session/build/**/*.d.ts
+
+# Assets
+*.svg
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.ico
+*.woff
+*.woff2
+*.ttf
+*.eot
+
+# Expo
+.expo/
+
+# Next.js
+.next/
+
+# Vercel
+.vercel/
+
+# Git
+.git/
+
+# Coverage
+coverage/
+
+# Environment variables
+.env
+.env.*
+
+# Configuration files
+*.config.js
+metro.config.*
+babel.config.*
+jest.config.*
+tsconfig.*
+
+# JSON files
+*.json
+!package.json
+!app.json
+
+# Assets
+assets/ 
